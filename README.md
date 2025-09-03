@@ -27,6 +27,8 @@ Criado com muito carinho por **Fabiana Lopes** como parte do meu portfólio para
 ## 📦 Como rodar o projeto localmente
 
 1. Clone o repositório:
+2. ## 🚀 Como rodar o projeto
+git clone https://github.com/Faby37lopes/gpt-front.git
 
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+
+
