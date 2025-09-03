@@ -1,0 +1,27 @@
+.sidemenu{
+    width: 220px;
+    background-color: #202123;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.sidemenu-buttons {
+    cursor: pointer;
+    padding: 10px 14px;
+    margin-top: 24px;
+    border: 1px solid #444;
+    border-radius: 8px;
+display: flex;
+align-items: center;
+  transition: background-color 0.3s ease;    
+}
+.sidemenu-buttons:hover {
+    background-color: #2d2f38; 
+}
+.sidemenu-buttons span {
+    padding-left: 6px;
+padding-right: 12px;
+}

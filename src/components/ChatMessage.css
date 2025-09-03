@@ -1,0 +1,22 @@
+.chat-message {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.chat-message.user {
+  justify-content: flex-end;
+}
+
+.chat-message.bot {
+  justify-content: flex-start;
+}
+
+.bubble {
+   background: rgba(255, 255, 255, 0.8); /* bolha com fundo branco transparente */
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: #222; /* texto escuro */
+  font-weight: 500;
+  font-size: 16px;
+  backdrop-filter: blur(8px);
+}

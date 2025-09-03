@@ -1,0 +1,17 @@
+export const frasesBackup = [
+  "Você atrai o que vibra. Então vibre amor, paz e prosperidade.",
+  "O universo conspira a favor de quem acredita.",
+  "Tudo o que você deseja já está a caminho.",
+  "A gratidão transforma o que temos em suficiente.",
+  "Pensamentos positivos geram resultados positivos.",
+  "Confie nos processos do universo.",
+  "A abundância começa dentro de você.",
+  "A vida devolve tudo o que você emana.",
+  "Acredite no poder que existe dentro de você.",
+  "Quando você muda, tudo ao seu redor muda também.",
+  "A frequência da gratidão abre portas invisíveis.",
+  "Você é um ímã poderoso de milagres.",
+  "Tudo o que você mentaliza com amor se realiza.",
+  "Hoje é um ótimo dia para florescer.",
+  "A sua energia é seu cartão de visita.",
+];

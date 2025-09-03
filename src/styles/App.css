@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: url("https://images.unsplash.com/photo-1532298488760-970ff6decf61") no-repeat center center/cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  backdrop-filter: blur(8px);
+}
+
+.chat-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  color: white;
+
+/* Camada escura sobre o fundo */
+.chat-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 10, 10, 0.5); /* aqui ajusta a escuridão */
+  z-index: 0;
+  border-radius: 20px;
+}
+
+/* conteúdo por cima do overlay */
+.mensagens, .input-container {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+
+
+
+
+}
+
+.mensagens {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 10px;
+}
+
+.alerta {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  color: #ffe27a;
+  font-weight: bold;
+  text-align: center;
+}
